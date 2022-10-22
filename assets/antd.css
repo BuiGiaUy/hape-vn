@@ -1,0 +1,68 @@
+.ant-tabs-tab-btn {
+    outline: none;
+    transition: all 0.3s;
+    font-size: 15px;
+    font-weight: bold;
+    color: #666;
+  }
+  .techstacks .ant-tabs-nav::before{
+    border-bottom: none;
+  }
+  /* .ant-scrolling-effect {
+    width: 100%!important;
+    overflow-y:visible !important;
+  } */
+
+.ant-modal-body {
+    padding: 10px 24px;
+
+  }
+.ant-cascader-input.ant-input {
+
+    padding-right: 24px!important;
+    padding: 10px 22px!important;
+
+  }
+.burgerMenuDrawer .ant-drawer-header{
+    display: none;
+}
+.ant-select-multiple .ant-select-selection-item-remove > .anticon {
+  vertical-align: 1px;
+}
+.ant-select-selector {
+  height: 40px!important;;
+  padding: 5px 11px!important;;
+  border-radius: 4px!important;
+}
+/*----------- checkedList ----------*/
+
+.menuDropdown  .ant-drawer-content {
+    background: #ffffffd4!important;
+    backdrop-filter: blur(4px)!important;
+}
+.menuDropdown .ant-collapse-header{
+ padding: 0!important;
+ @apply text-2xl font-semibold py-4 block;
+}
+.menuDropdown .ant-collapse-arrow{
+        color: #777!important;
+        margin-top: 6px!important;
+        position: absolute!important;
+        right: 5px!important;
+        font-size: 26px!important;
+    
+}
+.auth-form-modal .ant-modal-header{
+    @apply uppercase text-base font-semibold;
+}
+
+
+.ant-picker-range {
+  position: relative;
+  display: inline-flex;
+  padding: 8px 10px;
+  border-radius: 4px;
+}
+.ant-form-item{
+  margin: 0;
+}

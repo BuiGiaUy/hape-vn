@@ -1,0 +1,58 @@
+.h1{
+    @apply text-xl font-bold uppercase text-gray-700
+}
+.formBox{
+    @apply shadow px-6 py-5 bg-white
+}
+.button{
+    color: #fff!important;
+    background: var(--main-color)!important;
+  @apply flex hover:text-white tracking-wide items-center justify-center text-white text-sm font-bold uppercase px-7 py-3 shadow hover:shadow-lg outline-none focus:outline-none lg:mr-1 lg:mb-0 ml-3 mb-3 ease-linear transition-all duration-150
+ 
+}
+.addButtonSvg{
+    margin: -2px 2px 0 0;
+    width: 20px!important;
+    height: 20px!important;
+    @apply inline 
+}
+
+.productName {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    max-width: 200px;
+    display: block;
+  }
+.addressItem{
+    border-top: 1px solid #f2f2f2;
+    @apply my-5 pl-20 pt-8 pb-6 pr-5
+}
+.fieldRow{
+    @apply my-2 flex
+}
+.value{
+    min-width: 200px;
+    @apply ml-5
+    
+}
+.linkBtn{
+    @apply underline ml-5
+}
+.linkBtn:hover{
+    color: var(--main-color);
+}
+.actionButton{
+    padding: 5px 15px;
+    border: 1px solid #f2f2f2;
+}
+
+.actionButton:hover:not([disabled]) {
+
+    color: var(--main-color);
+    border: 1px solid  var(--main-color);
+}
+.label{
+    min-width: 100px;
+    @apply text-gray-500 text-right inline-block
+}

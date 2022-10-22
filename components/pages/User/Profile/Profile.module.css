@@ -1,0 +1,70 @@
+.h1{
+    @apply text-2xl font-bold uppercase text-gray-700
+}
+
+.input {
+    width: 300px;
+    border-radius: 2px;
+    border: 1px solid rgba(0,0,0,.14);
+    box-sizing: border-box;
+    box-shadow: inset 0 2px 0 0 rgb(0 0 0 / 2%);
+    color: #222;
+    height: 40px;
+    padding: 10px;
+    -webkit-transition: border-color .1s ease;
+    transition: border-color .1s ease;
+    @apply  mr-3 px-3 py-2 bg-white text-sm 
+     focus:outline-none focus:ring ease-linear 
+     transition-all duration-150
+}   
+
+.button{
+    color: #fff!important;
+    background: var(--main-color)!important;
+  @apply flex hover:text-white tracking-wide  mt-5
+  items-center justify-center text-white text-sm
+   font-bold uppercase px-6 py-2 shadow
+ 
+}
+.labelColumn{
+    @apply md:col-span-3 pt-2 text-right text-gray-600
+}
+.formBox{
+    @apply shadow sm:pr-16  px-12 pt-5 pb-20 bg-white
+}
+.checkbox{
+    margin-top: 6px;
+    min-width: 16px;
+    @apply h-5 w-5 text-gray-600 lg:col-span-1
+}
+.checkCard:hover{
+    background-color: #ffd5b8ad;
+}
+.checkCard{
+    @apply bg-white rounded shadow-md px-5 py-5 my-2 flex  cursor-pointer
+}
+.checkCard label{
+
+    @apply font-semibold
+}
+.btnLink{
+    @apply underline
+}
+@media only screen and (max-width: 640px){
+    .checkCard label{
+        max-width: none;
+    }
+}
+.infoBox h3{
+    @apply mt-5 text-xl mb-1
+}
+.infoBox label{
+    @apply block uppercase font-bold my-2
+}
+.infoBox p{
+    @apply text-base mb-16
+}
+.infoBox a{
+    @apply text-base text-indigo-500 font-bold
+    
+}
